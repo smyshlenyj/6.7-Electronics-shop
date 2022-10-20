@@ -21,7 +21,7 @@ protected:
 	int _batteryLife;
 
 public:
-	Xiaomi_Mi_11(int weight, std::string IMEI, int batteryLife, std::string OSVersion);
+	Xiaomi_Mi_11(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion);
 	virtual void showSpec() override;
 };
 
@@ -31,7 +31,7 @@ protected:
 	int _batteryLife;
 
 public:
-	Xiaomi_Mi_10(int weight, std::string IMEI, int batteryLife, std::string OSVersion);
+	Xiaomi_Mi_10(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion);
 	virtual void showSpec() override;
 };
 
@@ -41,7 +41,7 @@ protected:
 	int _batteryLife;
 
 public:
-	iPhone12(int weight, std::string IMEI, int batteryLife, std::string OSVersion);
+	iPhone12(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion);
 	virtual void showSpec() override;
 };
 
@@ -51,6 +51,6 @@ protected:
 	int _batteryLife;
 
 public:
-	iPhone11(int weight, std::string IMEI, int batteryLife, std::string OSVersion);
+	iPhone11(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion);
 	virtual void showSpec() override;
 };
