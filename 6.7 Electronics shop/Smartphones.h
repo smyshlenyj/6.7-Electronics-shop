@@ -3,11 +3,11 @@
 
 class Smartphones : public IElectronics
 {
+	int _weight;
 	std::string _IMEI;
-	const std::string f;
 
 public:
-	Smartphones(std::string IMEI);
+	Smartphones(int weight, std::string IMEI);
 	virtual void showSpec() override;
 	virtual ~Smartphones() = default;
 };

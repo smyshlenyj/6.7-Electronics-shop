@@ -4,9 +4,9 @@
 class iOS : public IOperatingSystem
 {
 private:
-	std::string _OSVersion;
+	const std::string _OSVersion;
 
 public:
-	iOS(std::string OSVersion);
+	iOS(const std::string OSVersion);
 	virtual void showSpec() override;
 };

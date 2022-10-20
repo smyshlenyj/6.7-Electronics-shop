@@ -5,9 +5,9 @@
 class Android : public IOperatingSystem
 {
 private:
-	std::string _OSVersion;
+	const std::string _OSVersion;
 
 public:
-	Android(std::string OSVersion);
+	Android(const std::string OSVersion);
 	virtual void showSpec() override;
 };
