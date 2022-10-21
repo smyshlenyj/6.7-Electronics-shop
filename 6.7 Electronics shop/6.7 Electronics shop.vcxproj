@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="6.7 Electronics shop.cpp" />
+    <ClCompile Include="6.7 E-shop.cpp" />
     <ClCompile Include="Android.cpp" />
     <ClCompile Include="Devices.cpp" />
     <ClCompile Include="iOS.cpp" />

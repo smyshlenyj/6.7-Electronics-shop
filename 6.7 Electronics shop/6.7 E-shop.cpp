@@ -30,7 +30,6 @@ int main()
 	bool programAlive = true;
 	while (programAlive)
 	{
-
 		std::cout << "\tВведите: \n\n";
 		for (int i = 0; i < smartStorehouse->getSize(); ++i)
 		{
@@ -39,7 +38,6 @@ int main()
 		}
 		std::cout << "-----------------------------------------------------\n" <<
 			smartStorehouse->getSize() << "\t для выхода из магазина \t" << std::endl;
-
 
 		std::cout << "\n";
 
