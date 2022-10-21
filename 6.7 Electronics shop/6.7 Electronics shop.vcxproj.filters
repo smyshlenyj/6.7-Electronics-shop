@@ -30,15 +30,15 @@
     <ClCompile Include="iOS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Storehouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Devices.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="IElectronics.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IOperatingSystem.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Smartphones.h">
@@ -48,6 +48,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="iOS.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOperatingSystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storehouse.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -132,14 +132,16 @@
     <ClCompile Include="Devices.cpp" />
     <ClCompile Include="iOS.cpp" />
     <ClCompile Include="Smartphones.cpp" />
+    <ClCompile Include="Storehouse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Android.h" />
-    <ClInclude Include="IOperatingSystem.h" />
     <ClInclude Include="Devices.h" />
     <ClInclude Include="IElectronics.h" />
+    <ClInclude Include="IOperatingSystem.h" />
     <ClInclude Include="iOS.h" />
     <ClInclude Include="Smartphones.h" />
+    <ClInclude Include="Storehouse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

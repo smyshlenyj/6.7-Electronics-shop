@@ -4,10 +4,9 @@
 
 class Android : public IOperatingSystem
 {
-private:
+protected:
 	const std::string _OSVersion;
 
 public:
 	Android(const std::string OSVersion);
-	virtual void showSpec() override;
 };
