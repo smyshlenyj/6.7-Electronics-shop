@@ -7,10 +7,10 @@ Xiaomi_Mi_12::Xiaomi_Mi_12(int weight, const std::string IMEI, int batteryLife, 
 }
 void Xiaomi_Mi_12::showSpec()
 {
-	std::cout << "Ìîäåëü:\t\t\t\t" << _model << std::endl;
-	std::cout << "Âðåìÿ ðàáîòû îò áàòàðåè:\t" << _batteryLife << " ÷àñîâ" << std::endl;
-	std::cout << "Âåñ òîâàðà:\t\t\t" << _weight << " ãðàìì" << std::endl;
-	std::cout << "Âåðñèÿ îïåðàöèîííîé ñèñòåìû:\t" << _OSVersion << std::endl;
+	std::cout << "ÐœÐ¾Ð´ÐµÐ»ÑŒ:\t\t\t\t" << _model << std::endl;
+	std::cout << "Ð’Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð¾Ñ‚ Ð±Ð°Ñ‚Ð°Ñ€ÐµÐ¸:\t" << _batteryLife << " Ñ‡Ð°ÑÐ¾Ð²" << std::endl;
+	std::cout << "Ð’ÐµÑ Ñ‚Ð¾Ð²Ð°Ñ€Ð°:\t\t\t" << _weight << " Ð³Ñ€Ð°Ð¼Ð¼" << std::endl;
+	std::cout << "Ð’ÐµÑ€ÑÐ¸Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹:\t" << _OSVersion << std::endl;
 	std::cout << "IMEI:\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
@@ -27,10 +27,10 @@ Xiaomi_Mi_11::Xiaomi_Mi_11(int weight, const std::string IMEI, int batteryLife, 
 
 void Xiaomi_Mi_11::showSpec()
 {
-	std::cout << "Ìîäåëü:\t\t\t\t" << _model << std::endl;
-	std::cout << "Âðåìÿ ðàáîòû îò áàòàðåè:\t" << _batteryLife << " ÷àñîâ" << std::endl;
-	std::cout << "Âåñ òîâàðà:\t\t\t" << _weight << " ãðàìì" << std::endl;
-	std::cout << "Âåðñèÿ îïåðàöèîííîé ñèñòåìû:\t" << _OSVersion << std::endl;
+	std::cout << "ÐœÐ¾Ð´ÐµÐ»ÑŒ:\t\t\t\t" << _model << std::endl;
+	std::cout << "Ð’Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð¾Ñ‚ Ð±Ð°Ñ‚Ð°Ñ€ÐµÐ¸:\t" << _batteryLife << " Ñ‡Ð°ÑÐ¾Ð²" << std::endl;
+	std::cout << "Ð’ÐµÑ Ñ‚Ð¾Ð²Ð°Ñ€Ð°:\t\t\t" << _weight << " Ð³Ñ€Ð°Ð¼Ð¼" << std::endl;
+	std::cout << "Ð’ÐµÑ€ÑÐ¸Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹:\t" << _OSVersion << std::endl;
 	std::cout << "IMEI:\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
@@ -47,10 +47,10 @@ Xiaomi_Mi_10::Xiaomi_Mi_10(int weight, const std::string IMEI, int batteryLife, 
 
 void Xiaomi_Mi_10::showSpec()
 {
-	std::cout << "Ìîäåëü:\t\t\t\t" << _model << std::endl;
-	std::cout << "Âðåìÿ ðàáîòû îò áàòàðåè:\t" << _batteryLife << " ÷àñîâ" << std::endl;
-	std::cout << "Âåñ òîâàðà:\t\t\t" << _weight << " ãðàìì" << std::endl;
-	std::cout << "Âåðñèÿ îïåðàöèîííîé ñèñòåìû:\t" << _OSVersion << std::endl;
+	std::cout << "ÐœÐ¾Ð´ÐµÐ»ÑŒ:\t\t\t\t" << _model << std::endl;
+	std::cout << "Ð’Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð¾Ñ‚ Ð±Ð°Ñ‚Ð°Ñ€ÐµÐ¸:\t" << _batteryLife << " Ñ‡Ð°ÑÐ¾Ð²" << std::endl;
+	std::cout << "Ð’ÐµÑ Ñ‚Ð¾Ð²Ð°Ñ€Ð°:\t\t\t" << _weight << " Ð³Ñ€Ð°Ð¼Ð¼" << std::endl;
+	std::cout << "Ð’ÐµÑ€ÑÐ¸Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹:\t" << _OSVersion << std::endl;
 	std::cout << "IMEI:\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
@@ -67,10 +67,10 @@ iPhone12::iPhone12(int weight, const std::string IMEI, int batteryLife, const st
 
 void iPhone12::showSpec()
 {
-	std::cout << "Ìîäåëü:\t\t\t\t" << _model << std::endl;
-	std::cout << "Âðåìÿ ðàáîòû îò áàòàðåè:\t" << _batteryLife << " ÷àñîâ" << std::endl;
-	std::cout << "Âåñ òîâàðà:\t\t\t" << _weight << " ãðàìì" << std::endl;
-	std::cout << "Âåðñèÿ îïåðàöèîííîé ñèñòåìû:\t" << _OSVersion << std::endl;
+	std::cout << "ÐœÐ¾Ð´ÐµÐ»ÑŒ:\t\t\t\t" << _model << std::endl;
+	std::cout << "Ð’Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð¾Ñ‚ Ð±Ð°Ñ‚Ð°Ñ€ÐµÐ¸:\t" << _batteryLife << " Ñ‡Ð°ÑÐ¾Ð²" << std::endl;
+	std::cout << "Ð’ÐµÑ Ñ‚Ð¾Ð²Ð°Ñ€Ð°:\t\t\t" << _weight << " Ð³Ñ€Ð°Ð¼Ð¼" << std::endl;
+	std::cout << "Ð’ÐµÑ€ÑÐ¸Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹:\t" << _OSVersion << std::endl;
 	std::cout << "IMEI:\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
@@ -87,10 +87,10 @@ iPhone11::iPhone11(int weight, const std::string IMEI, int batteryLife, const st
 
 void iPhone11::showSpec()
 {
-	std::cout << "Ìîäåëü:\t\t\t\t" << _model << std::endl;
-	std::cout << "Âðåìÿ ðàáîòû îò áàòàðåè:\t" << _batteryLife << " ÷àñîâ" << std::endl;
-	std::cout << "Âåñ òîâàðà:\t\t\t" << _weight << " ãðàìì" << std::endl;
-	std::cout << "Âåðñèÿ îïåðàöèîííîé ñèñòåìû:\t" << _OSVersion << std::endl;
+	std::cout << "ÐœÐ¾Ð´ÐµÐ»ÑŒ:\t\t\t\t" << _model << std::endl;
+	std::cout << "Ð’Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð¾Ñ‚ Ð±Ð°Ñ‚Ð°Ñ€ÐµÐ¸:\t" << _batteryLife << " Ñ‡Ð°ÑÐ¾Ð²" << std::endl;
+	std::cout << "Ð’ÐµÑ Ñ‚Ð¾Ð²Ð°Ñ€Ð°:\t\t\t" << _weight << " Ð³Ñ€Ð°Ð¼Ð¼" << std::endl;
+	std::cout << "Ð’ÐµÑ€ÑÐ¸Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ñ‹:\t" << _OSVersion << std::endl;
 	std::cout << "IMEI:\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 

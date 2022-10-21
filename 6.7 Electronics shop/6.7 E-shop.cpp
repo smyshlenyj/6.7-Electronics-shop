@@ -4,7 +4,6 @@
 #include "Devices.h"
 #include "Storehouse.h"
 
-
 int main()
 {
 	setlocale(LC_ALL, "");
@@ -32,14 +31,14 @@ int main()
 	while (programAlive)
 	{
 
-		std::cout << "\tВведите: \n\n";
+		std::cout << "\tР’РІРµРґРёС‚Рµ: \n\n";
 		for (int i = 0; i < smartStorehouse->getSize(); ++i)
 		{
 			std::cout << "-----------------------------------------------------\n" <<
-				i << "\t для выбора \t" << smartStorehouse->getName(i) << std::endl;
+				i << "\t РґР»СЏ РІС‹Р±РѕСЂР° \t" << smartStorehouse->getName(i) << std::endl;
 		}
 		std::cout << "-----------------------------------------------------\n" <<
-			smartStorehouse->getSize() << "\t для выхода из магазина \t" << std::endl;
+			smartStorehouse->getSize() << "\t РґР»СЏ РІС‹С…РѕРґР° РёР· РјР°РіР°Р·РёРЅР° \t" << std::endl;
 
 
 		std::cout << "\n";
@@ -51,7 +50,7 @@ int main()
 		if (choice < smartStorehouse->getSize() && choice >= 0)
 		{
 			smartStorehouse->getShelf()[choice]->showSpec();
-			std::cout << "Вы хотите купить этот товар? Введите Y для того, чтобы купить, и любую другую клавишу, чтобы продолжить просмотр \n";
+			std::cout << "Р’С‹ С…РѕС‚РёС‚Рµ РєСѓРїРёС‚СЊ СЌС‚РѕС‚ С‚РѕРІР°СЂ? Р’РІРµРґРёС‚Рµ Y РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РєСѓРїРёС‚СЊ, Рё Р»СЋР±СѓСЋ РґСЂСѓРіСѓСЋ РєР»Р°РІРёС€Сѓ, С‡С‚РѕР±С‹ РїСЂРѕРґРѕР»Р¶РёС‚СЊ РїСЂРѕСЃРјРѕС‚СЂ \n";
 
 			char decideToBuy;
 			std::cin >> decideToBuy;
@@ -73,7 +72,7 @@ int main()
 					"AVAIL BAL\t\t $373.00\n\n"
 					"SEND MONEY THE FAST,SECURE WAY WITH\n"
 					"U.S. BANK ONLINE AND MOBILE\n\n"
-					"Спасибо за покупку!\n";
+					"РЎРїР°СЃРёР±Рѕ Р·Р° РїРѕРєСѓРїРєСѓ!\n";
 
 				programAlive = false;
 			}
