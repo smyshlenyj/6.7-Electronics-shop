@@ -80,4 +80,11 @@ int main()
 			programAlive = false;
 		}
 	}
+
+	// Освобождаем память 
+	for (auto item : smartStorehouse->getShelf())
+	{
+		delete item;
+	}
+	return 0;
 }

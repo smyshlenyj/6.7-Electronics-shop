@@ -14,4 +14,5 @@ public:
 	int getSize() const;
 	std::string getName(int i) const;
 	std::vector<IElectronics*> getShelf() const;
+	~Storehouse();
 };
