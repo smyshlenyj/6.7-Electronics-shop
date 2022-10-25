@@ -11,8 +11,8 @@ private:
 
 public:
 	void addStuff(IElectronics* stuff);
-	int getSize() const;
-	std::string getName(int i) const;
-	std::vector<IElectronics*> getShelf() const;
+	const int getSize() const;
+	const std::string getName(int i) const;
+	const std::vector<IElectronics*> getShelf() const;
 	~Storehouse();
 };

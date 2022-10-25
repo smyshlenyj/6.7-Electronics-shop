@@ -2,7 +2,7 @@
 #include "Devices.h"
 #include <string>
 
-Xiaomi_Mi_12::Xiaomi_Mi_12(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), Android(OSVersion)
+Xiaomi_Mi_12::Xiaomi_Mi_12(int weight, const std::string& IMEI, int batteryLife, const std::string& OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), Android(OSVersion)
 {
 }
 void Xiaomi_Mi_12::showSpec()
@@ -14,12 +14,12 @@ void Xiaomi_Mi_12::showSpec()
 	std::cout << "IMEI:\t\t\t\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
-std::string Xiaomi_Mi_12::getModel()
+const std::string Xiaomi_Mi_12::getModel() const
 {
 	return _model;
 }
 
-Xiaomi_Mi_11::Xiaomi_Mi_11(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), Android(OSVersion)
+Xiaomi_Mi_11::Xiaomi_Mi_11(int weight, const std::string& IMEI, int batteryLife, const std::string& OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), Android(OSVersion)
 {
 }
 
@@ -32,12 +32,12 @@ void Xiaomi_Mi_11::showSpec()
 	std::cout << "IMEI:\t\t\t\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
-std::string Xiaomi_Mi_11::getModel()
+const std::string Xiaomi_Mi_11::getModel() const
 {
 	return _model;
 }
 
-Xiaomi_Mi_10::Xiaomi_Mi_10(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), Android(OSVersion)
+Xiaomi_Mi_10::Xiaomi_Mi_10(int weight, const std::string& IMEI, int batteryLife, const std::string& OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), Android(OSVersion)
 {
 }
 
@@ -55,7 +55,7 @@ std::string Xiaomi_Mi_10::getModel()
 	return _model;
 }
 
-iPhone12::iPhone12(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), iOS(OSVersion)
+iPhone12::iPhone12(int weight, const std::string& IMEI, int batteryLife, const std::string& OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), iOS(OSVersion)
 {
 }
 
@@ -68,12 +68,12 @@ void iPhone12::showSpec()
 	std::cout << "IMEI:\t\t\t\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
-std::string iPhone12::getModel()
+const std::string iPhone12::getModel() const
 {
 	return _model;
 }
 
-iPhone11::iPhone11(int weight, const std::string IMEI, int batteryLife, const std::string OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), iOS(OSVersion)
+iPhone11::iPhone11(int weight, const std::string& IMEI, int batteryLife, const std::string& OSVersion) : Smartphones(weight, IMEI), _batteryLife(batteryLife), iOS(OSVersion)
 {
 }
 
@@ -86,7 +86,6 @@ void iPhone11::showSpec()
 	std::cout << "IMEI:\t\t\t\t\t\t\t" << _IMEI << std::endl << std::endl;
 }
 
-std::string iPhone11::getModel()
-{
+const std::string iPhone11::getModel() const
 	return _model;
 }

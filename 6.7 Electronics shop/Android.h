@@ -8,5 +8,5 @@ protected:
 	const std::string _OSVersion;
 
 public:
-	Android(const std::string OSVersion);
+	Android(const std::string& OSVersion);
 };

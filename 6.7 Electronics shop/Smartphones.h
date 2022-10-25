@@ -5,9 +5,9 @@ class Smartphones : public IElectronics
 {
 protected:
 	int _weight;
-	std::string _IMEI;
+	const std::string _IMEI;
 
 public:
-	Smartphones(int weight, std::string IMEI);
+	Smartphones(int weight, const std::string& IMEI);
 	virtual ~Smartphones() = default;
 };

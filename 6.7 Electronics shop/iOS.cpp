@@ -2,6 +2,6 @@
 #include <iostream>
 #include "iOS.h"
 
-iOS::iOS(std::string OSVersion) : _OSVersion(OSVersion)
+iOS::iOS(const std::string& OSVersion) : _OSVersion(OSVersion)
 {
 }

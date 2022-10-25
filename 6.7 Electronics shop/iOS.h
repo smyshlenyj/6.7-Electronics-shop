@@ -7,5 +7,5 @@ protected:
 	const std::string _OSVersion;
 
 public:
-	iOS(const std::string OSVersion);
+	iOS(const std::string& OSVersion);
 };
